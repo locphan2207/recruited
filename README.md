@@ -39,8 +39,8 @@ Users can always visit their personal profile page to check which jobs they post
 
 ![](gifs/screenshot-recruited.herokuapp.com-2018.02.25-21-06-27.png)
 
-## Our Matching Algorithm
-With limited of time, we came up with an algorithm to show percentage match based on our keywords bank. Each job title will have its set of related keywords. Once a job is posted, the algorithm will take a look at its job title and get those keywords from the keywords bank. Then, it looks through the job's description, to see filter keywords which appear in that job's qualifications. From that, it will scan through each resume to check if there is any matched keywords, then calculate the percentage.
+## My Matching Algorithm
+With limited of time, I came up with an algorithm to show percentage match based on our keywords bank. Each job title will have its set of related keywords. Once a job is posted, the algorithm will take a look at its job title and get those keywords from the keywords bank. Then, it looks through the job's description, to see filter keywords which appear in that job's qualifications. From that, it will scan through each resume to check if there is any matched keywords, then calculate the percentage.
 
 Here is a quick look of our keywords bank:
 
@@ -89,29 +89,3 @@ module.exports = (job, resumes) => {
 **Ling Kit Edward Cheng**,
 **Kelvin Cho**,
 **Tan Loc Phan**
-
-### Daily Breakdown
-
-#### Weekend
-  - Hosted On Heroku
-  - Complete Proposal
-
-#### Day 1
-  - User authentication and verify that all team members have work environment setup.
-  - Begin CRUD functionality on backend.
-  - Start frontend React/Redux for user auth, login/signup
-
-#### Day 2
-  - Create backend parsing algorithm
-  - Start frontend containers and items for Jobs Index
-
-#### Day 3
-  - Ensure functionality on backend
-  - Jobs Show page on frontend and Recruiters Show page
-
-#### Day 4
-  - Implement search/filter algorithm
-  - Styling on frontend
-
-#### Day 5
-  - Finalize production level product / DRY code
